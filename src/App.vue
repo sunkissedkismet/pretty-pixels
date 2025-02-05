@@ -3,6 +3,8 @@ import Navigation from "./components/Navigation.vue";
 </script>
 
 <template>
-  <Navigation />
-  <router-view />
+  <div class="overflow-hidden">
+    <Navigation />
+    <router-view />
+  </div>
 </template>

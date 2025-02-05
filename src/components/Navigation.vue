@@ -1,15 +1,20 @@
-<template>
-  <nav class="flex space-x-4 p-4 bg-gray-100">
-    <router-link to="/" class="text-blue-500 hover:underline"
-      >Dashboard</router-link
-    >
-    <router-link to="/portfolio" class="text-blue-500 hover:underline"
-      >Portfolio</router-link
-    >
-    <router-link to="/projects" class="text-blue-500 hover:underline"
-      >Projects</router-link
-    >
-  </nav>
-</template>
+<script lang="ts" setup>
+import { CloudIcon } from "@heroicons/vue/24/outline";
+</script>
 
-<script lang="ts" setup></script>
+<template>
+  <div class="border-black border p-4">
+    <div
+      class="mx-auto flex items-center justify-between px-2 sm:px-4 lg:max-w-7xl"
+    >
+      <div class="flex items-center gap-2 sm:gap-4">
+        <CloudIcon class="h-8 w-8 text-pink-600" />
+      </div>
+      <div class="flex items-center gap-4 sm:gap-8">
+        <router-link to="/">Dashboard</router-link>
+        <router-link to="/projects">Projects</router-link>
+        <router-link to="/team">Team</router-link>
+      </div>
+    </div>
+  </div>
+</template>

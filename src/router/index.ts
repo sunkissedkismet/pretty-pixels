@@ -1,12 +1,13 @@
-import { createRouter, createWebHistory } from "vue-router";
+// @ts-ignore
+import { createWebHistory, createRouter } from "vue-router";
 import Dashboard from "../views/Dashboard.vue";
+import Projects from "../views/Projects.vue";
 import Team from "../views/Team.vue";
-import Projects from "../views/Projects.vue"; // Ensure this file exists at the specified path
 
 const routes = [
-  { path: "/", name: "Dashboard", component: Dashboard },
-  { path: "/team", name: "Team", component: Team },
-  { path: "/projects", name: "Projects", component: Projects },
+  { path: "/", component: Dashboard },
+  { path: "/projects", component: Projects },
+  { path: "/team", component: Team },
 ];
 
 const router = createRouter({
