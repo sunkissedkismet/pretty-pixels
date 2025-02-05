@@ -6,6 +6,7 @@ import BoxFour from "../components/BoxFour.vue";
 import BoxFive from "../components/BoxFive.vue";
 import BoxSix from "../components/BoxSix.vue";
 import BoxSeven from "../components/BoxSeven.vue";
+import BoxEight from "../components/BoxEight.vue";
 </script>
 
 <template>
@@ -45,6 +46,12 @@ import BoxSeven from "../components/BoxSeven.vue";
       class="relative border-black border-2 p-2 sm:col-span-2 md:col-span-1 xl:col-span-6"
     >
       <BoxSeven />
+    </div>
+    <!--CONTAINER EIGHT-->
+    <div
+      class="relative border-black border-2 p-2 sm:col-span-2 md:col-span-1 xl:col-span-15"
+    >
+      <BoxEight />
     </div>
   </div>
 </template>
