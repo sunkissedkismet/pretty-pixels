@@ -56,7 +56,7 @@ const scrollToTop = () => {
   <button
     v-show="showScrollTop"
     @click="scrollToTop"
-    class="fixed bottom-6 right-6 ring-1 ring-gray-300/20 dark:ring-gray-500/15 hover:ring-2 hover:ring-blue-400/30 dark:hover:ring-blue-600/25 rounded-xl bg-white/80 dark:bg-gray-800/80 hover:bg-white dark:hover:bg-gray-700 p-3 w-12 h-12 flex items-center justify-center transition-all duration-300 z-50 shadow-lg"
+    class="fixed animate-bounce cursor-pointer bottom-6 right-6 ring-1 ring-gray-300/20 dark:ring-gray-500/15 hover:ring-2 hover:ring-blue-400/30 dark:hover:ring-blue-600/25 rounded-xl bg-white/80 dark:bg-gray-800/80 hover:bg-white dark:hover:bg-gray-700 p-3 w-12 h-12 flex items-center justify-center transition-all duration-300 z-50 shadow-lg"
   >
     <ArrowUpIcon class="h-6 w-6 text-blue-500 dark:text-blue-400" />
   </button>
