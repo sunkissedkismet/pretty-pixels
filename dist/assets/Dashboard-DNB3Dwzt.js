@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as s,o,a as r}from"./index-C4PfOlPM.js";const a={},c={class:"min-h-screen"};function n(d,e){return o(),s("div",c,e[0]||(e[0]=[r("div",{class:"text-black dark:text-white"},"One",-1)]))}const f=t(a,[["render",n]]);export{f as default};
